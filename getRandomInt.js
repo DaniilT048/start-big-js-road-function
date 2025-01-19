@@ -15,7 +15,10 @@
 */
 
 function getRandomInt(min, max) {
+  const message = `Генерую число від ${min} до ${max}`
+  console.log(message);
   return Math.floor(Math.random() * (max - min)) + min;
+
 }
 
 console.log(getRandomInt(1, 10)); // виводить випадкове число від 1 до 10

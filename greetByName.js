@@ -18,7 +18,7 @@ function greetByName(msg, name) {
 }
 let msg = 'Hi'
 let name = 'John'
-console.log (greetByName(msg, name)) // Hi, John
+console.log (`${greetByName(msg, name)}`) // Hi, John
 
 // let msg = 'Hey'
 // let name = 'Bob'
