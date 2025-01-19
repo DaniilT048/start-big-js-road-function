@@ -18,12 +18,12 @@ function greetByName(msg, name) {
 }
 let msg = 'Hi'
 let name = 'John'
-console.log (greetByName(msg, name)) // Hi, John
+console.log (`${greetByName(msg, name)}`) // Hi, John
 
 // let msg = 'Hey'
 // let name = 'Bob'
-// console.log (greetByName(msg, name)) // Hey, Bob
+// console.log (`${greetByName(msg, name)}`) // Hey, Bob
 
 // let msg = 'Hello'
 // let name = 'Mary'
-// console.log (greetByName(msg, name)) // Hello, Mary
+// console.log (`${greetByName(msg, name)}`) // Hello, Mary
